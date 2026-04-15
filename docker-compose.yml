@@ -16,7 +16,7 @@ services:
       context: .
       dockerfile: Dockerfile.backend
     ports:
-      - "5003:5000"
+      - "5003:5000"   # ✅ YOUR PORT
     depends_on:
       - mongo
 
